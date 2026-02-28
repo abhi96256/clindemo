@@ -1,0 +1,35 @@
+.stats-section {
+    padding: 40px 20px;
+    background: var(--primary);
+    color: white;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.stat-card {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.stat-card h3 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.stat-card p {
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        justify-content: center;
+    }
+}
